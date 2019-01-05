@@ -6,7 +6,8 @@
 
 <h2> Please watch the video below for more information. </h2> 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JidnqqwSkK8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<video id="Introduction" src="https://www.youtube.com/watch?v=JidnqqwSkK8&feature=youtu.be" controls></video>
+
   </body>
   
     
