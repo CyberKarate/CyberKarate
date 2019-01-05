@@ -2,6 +2,8 @@
 
 <body> Welcome to Cyber Martial Arts. Our main goal is to have a <Bold> FREE </Bold> online karate dojo for people who can't afford it. </body>
 
+<h2> Please watch the video below for more information. </h2> 
+
 <body> https://www.youtube.com/watch?v=JidnqqwSkK8&feature=youtu.be <Body>
   
     
