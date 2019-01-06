@@ -114,6 +114,8 @@ var parselimit=limit.split(":")
 parselimit=parselimit[0]*60+parselimit[1]*1
 }
 function begintimer(){
+	
+	</body>
 if (!document.images)
 return
 if (parselimit==1)
