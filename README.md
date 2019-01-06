@@ -44,8 +44,11 @@ window.onload = function() { generateRandomNumber(); }
 <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us7.list-manage.com","uuid":"208c9cc9c169789616ad68872","lid":"2561fe75da","uniqueMethods":true}) })</script>
 <script>(function(t,e,s,n){var o,a,c;t.SMCX=t.SMCX||[],e.getElementById(n)||(o=e.getElementsByTagName(s),a=o[o.length-1],c=e.createElement(s),c.type="text/javascript",c.async=!0,c.id=n,c.src=["https:"===location.protocol?"https://":"http://","widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgdxH9NlI1a7W911VCIbYgCRUIX_2Bkt5hcyBomZhqLmFhhJ.js"].join(""),a.parentNode.insertBefore(c,a))})(window,document,"script","smcx-sdk");</script>
 -->
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfNuQEeVvNqLkIYniCKv20H3jHqI7uXhUxH2l6V5txqk1i2Xw/viewform?embedded=true" width="640" height="1410" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
+<h3> Our Karate Classes </h3>
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfNuQEeVvNqLkIYniCKv20H3jHqI7uXhUxH2l6V5txqk1i2Xw/viewform?embedded=true" width="640" height="1410" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wGNJDAXyxV4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
   </body>
   
