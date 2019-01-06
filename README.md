@@ -58,10 +58,10 @@ div#test{ border:#000 1px solid; padding:10px 40px 40px 40px; }
 <script>
 var pos = 0, test, test_status, question, choice, choices, chA, chB, chC, correct = 0;
 var questions = [
-    [ "What is 10 the most important thing in a punch?", "Pull back", "Punch", "Stance", "A" ],
+    [ "What is the most important thing in a punch?", "Pull back", "Punch", "Stance", "A" ],
 	[ "What do you have to do when you pull back?", "Rotate your fist", "Stay low", "A" ],
 	[ "Can you ever be a master at anything?", "Yes", "I do not know", "No", "C", ],
-	[ "What is 8 / 2?", "10", "2", "4", "C" ]
+	[ "How often should you practice Karate?", "Once a week", "Everyday", "Twice a week", "B" ]
 ];
 function _(x){
 	return document.getElementById(x);
