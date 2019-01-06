@@ -50,7 +50,7 @@ window.onload = function() { generateRandomNumber(); }
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfNuQEeVvNqLkIYniCKv20H3jHqI7uXhUxH2l6V5txqk1i2Xw/viewform?embedded=true" width="640" height="1410" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wGNJDAXyxV4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<!DOCTYPE html>
+
 <head>
 <style>
 div#test{ border:#000 1px solid; padding:10px 40px 40px 40px; }
@@ -58,9 +58,9 @@ div#test{ border:#000 1px solid; padding:10px 40px 40px 40px; }
 <script>
 var pos = 0, test, test_status, question, choice, choices, chA, chB, chC, correct = 0;
 var questions = [
-    [ "What is 10 + 4?", "12", "14", "16", "B" ],
-	[ "What is 20 - 9?", "7", "13", "11", "C" ],
-	[ "What is 7 x 3?", "21", "24", "25", "A" ],
+    [ "What is 10 the most important thing in a punch?", "Pull back", "Punch", "Stance", "A" ],
+	[ "What do you have to do when you pull back?", "Rotate your fist", "Stay low", "A" ],
+	[ "Can you ever be a master at anything?", "Yes", "I do not know", "No", "C", ],
 	[ "What is 8 / 2?", "10", "2", "4", "C" ]
 ];
 function _(x){
@@ -139,7 +139,7 @@ setTimeout("begintimer()",1000)
 <h2 id="test_status"></h2>
 <div id="test"></div>
 </body>
-</html>
+
 
 
 </body>
