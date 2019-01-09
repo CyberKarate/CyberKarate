@@ -1,35 +1,41 @@
-<html>
-<head>
-<title> JS guessing game </title>
-<script type="text/javascript">
-var ranNum;
-function playGame ( ) {
-  var answer;
-  var fnd = false;
-  var cnt = 10;
-  while ((cnt > 0) && (fnd == false)) {
-    answer = prompt("Guess a number between 1 and 50!");
-    if (answer > ranNum) { alert("Guess lower!"); }
-    if (answer < ranNum) { alert("Guess higher!!"); }
-    if (answer == ranNum) { alert("Correct!"); fnd = true; }
-    cnt--;
-  }
-  if (!fnd) { alert('Too bad, you lose ... The number was '+ranNum); }
-  return fnd;
-}
-function generateRandomNumber() {
-  ranNum = Math.floor(Math.random()*50)+1;
-}
-window.onload = function() { generateRandomNumber(); }
-</script>
-</head>
 <body>
-<strong> Guess a random number </strong>
-<input type="button" value="Play game" onclick="playGame()"> 
-<input type="button" value="New game" onclick="generateRandomNumber()"> 
-</body>
+
+
+  <head>
+    <title>Guess the Number</title>
+  </head>
+
+  <body>
+    <script src="guess_the_number.js"></script>
+  </body>
 </html>
-<body>
+
+
+// guess_the_number_js.js
+
+alert("Welcome!");
+
+var secretNumber = Math.floor((Math.random() * 101));
+
+var name = prompt("What is your name?");
+
+var guessNumber = prompt("Hi " + name + "!  I'm thinking of a number between 1 and 100.  Guess what it is!");
+
+while(secretNumber > 0) {
+  if(guessNumber < secretNumber) {
+    guessNumber = prompt("Too low, guess again!")
+  }
+  else if(guessNumber > secretNumber) {
+    guessNumber = prompt("Too high, guess again!")
+  }
+  else
+    alert("That's correct, you win!")
+}
+
+
+
+
+
 <h1> Welcome to Cyber Martial Arts Dojo </h1>
   
   <img src="CyberKarateDojo.PNG">
