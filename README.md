@@ -102,6 +102,7 @@ window.status=curtime
 setTimeout("begintimer()",1000)
 }
 }
+<!--
 if(test_status==4){
 
 <canvas id="canvas"></canvas>
@@ -492,19 +493,8 @@ function btnClick(e) {
 	
 	// If the game is over, and the restart button is clicked
 	if(over == 1) {
-		if(mx >= restartBtn.x && mx <= restartBtn.x + restartBtn.w) {
-			ball.x = 20;
-			ball.y = 20;
-			points = 0;
-			ball.vx = 4;
-			ball.vy = 8;
-			animloop();
-			
-			over = 0;
-		}
-	}
-}
-
+		if(mx >= restartBtn.
+		-->
 // Show the start screen
 startScreen();
 }
